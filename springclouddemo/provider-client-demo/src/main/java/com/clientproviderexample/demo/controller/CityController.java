@@ -13,7 +13,7 @@ public class CityController {
     private CityService cityService;
 
     @GetMapping("/city")
-    public City getCitylist(){
-        return this.cityService.findCityList();
+    public City getCity(){
+        return this.cityService.findCity();
     }
 }

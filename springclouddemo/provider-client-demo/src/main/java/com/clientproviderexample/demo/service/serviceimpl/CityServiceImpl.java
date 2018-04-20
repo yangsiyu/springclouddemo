@@ -7,7 +7,7 @@ import org.springframework.stereotype.Service;
 @Service
 public class CityServiceImpl implements CityService {
     @Override
-    public City findCityList() {
+    public City findCity() {
         return new City("tongguan","714300");
     }
 }
